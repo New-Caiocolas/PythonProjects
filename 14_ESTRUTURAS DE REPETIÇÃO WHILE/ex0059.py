@@ -1,7 +1,11 @@
+from time import sleep
+
 n1 = int(input('digite um número:'))
 n2 = int(input('digite outro número:'))
-op = 0
-while op != 5:
+ver = False
+while not ver:
+    sleep(0.5)
+    print('=---=' * 20)
     print('''
 [1]somar
 [2]multiplicar
@@ -26,4 +30,8 @@ while op != 5:
     if op == 4:
         n1 = int(input('digite um número:'))
         n2 = int(input('digite outro número:'))
+    if op == 5:
+        ver = True
+    if op != 1 and op != 2 and op != 3 and op != 4 and op != 5:
+        print('dados invalidos... tente novamente.')
 print('programa finalizado com sucesso')
