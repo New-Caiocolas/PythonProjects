@@ -16,6 +16,7 @@ if sn == 'S':
         tentativas += 1
         if s == n:
             acertou = True
+            print('você acertou!!!!!')
         else:
             if s > n:
                 print('maior... tente novamente:')
