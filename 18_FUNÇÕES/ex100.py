@@ -16,4 +16,4 @@ def somapar():
  
 lista = []
 sortear()
-somapar()
+somapar()   
