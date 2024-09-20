@@ -7,7 +7,9 @@ window.configure(bg='#333333')
 
 def login():
     if user_entry.get() == 'caio' and password_entry.get() == '123':
-        print('Hello world!')
+        print('Acesso autorizado!')
+    else:
+        print('Acesso Negado!')
 
 frame = tkinter.Frame(bg='#333333')
 
