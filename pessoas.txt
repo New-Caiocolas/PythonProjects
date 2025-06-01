@@ -1,0 +1,7 @@
+caio;23
+yto;17
+gui;18
+farias;30
+macaco;13
+gato;12
+joao;56
