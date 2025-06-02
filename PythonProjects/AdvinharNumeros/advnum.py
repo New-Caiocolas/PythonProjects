@@ -1,8 +1,2 @@
-import random
-import math
- 
-menor = int(input("digite o menor valor:- ")) 
-maior = int(input("digite o maior valor:- "))  
-
-if 
- 
+tupla = (10,4,5,2,1,7,9)
+print(sorted(tupla))
